@@ -1,7 +1,6 @@
 <script setup>
   import Heading from "../components/Heading.vue";
   import RouterLink from "../components/RouterLink.vue";
-
   defineProps({
     title:{
       type:String
@@ -12,7 +11,7 @@
 <template>
  <div>
     <div class="flex justify-end">
-      <RouterLink :to="'newCustomer'">Nuevo cliente</RouterLink>
+      <RouterLink :to="'home'">Volver</RouterLink>
     </div>
     <Heading>{{ title }}</Heading>
  </div>
